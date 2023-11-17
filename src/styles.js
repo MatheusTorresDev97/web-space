@@ -11,3 +11,8 @@ export const AppContainer = styled.div`
   max-width: 100%;
   margin: 0 auto;
 `
+
+export const MainContainer = styled.main`
+  display: flex;
+  gap: 24px;
+`

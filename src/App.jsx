@@ -1,13 +1,18 @@
 import React from 'react'
 import EstilosGlobais from "./components/EstilosGlobais"
-import { FundoGradiente, AppContainer } from './styles'
+import { FundoGradiente, AppContainer, MainContainer } from './styles'
+import Header from "./components/Header"
+import BarraLateral from './components/BarraLateral'
 
 const App = () => {
   return (
     <FundoGradiente>
       <EstilosGlobais />
       <AppContainer>
-      App
+      <Header />
+      <MainContainer>
+        <BarraLateral />
+      </MainContainer>
       </AppContainer>
       </FundoGradiente>
   )
