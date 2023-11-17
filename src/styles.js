@@ -16,3 +16,9 @@ export const MainContainer = styled.main`
   display: flex;
   gap: 24px;
 `
+
+export const ConteudoGaleria = styled.section`
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+`
